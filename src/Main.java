@@ -51,7 +51,7 @@ int i = 1;
 i <= 12; i++) {
 tatal = tatal + tatal / 100;
 tatal = tatal + salary;
-            System.out.println("месяц " + i + ", сумма накоплений " + tatal);
+            System.out.println(" месяц " + i + ", сумма накоплений " + tatal);
 
         }
 
