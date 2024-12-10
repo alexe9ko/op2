@@ -43,9 +43,13 @@ public class Main {
                 i <= 512; i = i * 2) {
             System.out.println(+i);
         }
-
         int salary = 29000;
         int tatal = 0;
+        for (int i= 1; i<= 12; i++) {
+            tatal = tatal + salary;
+            System.out.println(" Месяц " +i+ ", сумма накоплений "+ tatal);
+        }
+
         for (
                 int i = 1;
                 i <= 12; i++) {
